@@ -1,0 +1,44 @@
+header {
+    min-height: 400px;
+    height: 100%;
+  .container {
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      padding: 70px 0;
+      text-align: center;
+      font-family: "Epilogue", sans-serif;
+      h1{
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+      }
+      p{
+        padding-top: 30px;
+        max-width: 570px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #FFFFFFA3;
+        opacity: 64%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 632px) {
+  header {
+  .container {
+    .header-content {
+      h1{
+        font-size: 60px;
+      }
+    }
+  }
+}
+}
